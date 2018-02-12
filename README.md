@@ -25,3 +25,6 @@ A view that shows percentage.
     self.percentView.differentValue = +100;
 }
 ~~~
+
+#Demonstrate
+![Alt text](https://github.com/chenyufeng1991/NewsClient/raw/master/Screenshots/2.png)
