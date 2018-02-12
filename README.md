@@ -27,4 +27,4 @@ A view that shows percentage.
 ~~~
 
 # Demonstrate
-![Alt text](https://github.com/chenyufeng1991/NewsClient/raw/master/Screenshots/2.png)
+![Alt text](https://github.com/ProgrammerLZ/GitHub/blob/master/Image/PercentView.png)
