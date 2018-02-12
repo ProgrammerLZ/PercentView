@@ -13,6 +13,9 @@
 		AE54303620315D5C006AA613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE54303520315D5C006AA613 /* Assets.xcassets */; };
 		AE54303920315D5C006AA613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE54303720315D5C006AA613 /* LaunchScreen.storyboard */; };
 		AE54303C20315D5C006AA613 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE54303B20315D5C006AA613 /* main.m */; };
+		AE54304920315DDC006AA613 /* PercentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE54304420315DDC006AA613 /* PercentView.m */; };
+		AE54304A20315DDC006AA613 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE54304520315DDC006AA613 /* CircleView.m */; };
+		AE54304B20315DDC006AA613 /* BackView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE54304620315DDC006AA613 /* BackView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		AE54303820315D5C006AA613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE54303A20315D5C006AA613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE54303B20315D5C006AA613 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE54304320315DDC006AA613 /* BackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackView.h; sourceTree = "<group>"; };
+		AE54304420315DDC006AA613 /* PercentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PercentView.m; sourceTree = "<group>"; };
+		AE54304520315DDC006AA613 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		AE54304620315DDC006AA613 /* BackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackView.m; sourceTree = "<group>"; };
+		AE54304720315DDC006AA613 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		AE54304820315DDC006AA613 /* PercentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PercentView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 		AE54302B20315D5C006AA613 /* PercentView */ = {
 			isa = PBXGroup;
 			children = (
+				AE54304220315DDC006AA613 /* PercentView */,
 				AE54302C20315D5C006AA613 /* AppDelegate.h */,
 				AE54302D20315D5C006AA613 /* AppDelegate.m */,
 				AE54302F20315D5C006AA613 /* ViewController.h */,
@@ -67,6 +77,19 @@
 				AE54303720315D5C006AA613 /* LaunchScreen.storyboard */,
 				AE54303A20315D5C006AA613 /* Info.plist */,
 				AE54303B20315D5C006AA613 /* main.m */,
+			);
+			path = PercentView;
+			sourceTree = "<group>";
+		};
+		AE54304220315DDC006AA613 /* PercentView */ = {
+			isa = PBXGroup;
+			children = (
+				AE54304820315DDC006AA613 /* PercentView.h */,
+				AE54304420315DDC006AA613 /* PercentView.m */,
+				AE54304720315DDC006AA613 /* CircleView.h */,
+				AE54304520315DDC006AA613 /* CircleView.m */,
+				AE54304320315DDC006AA613 /* BackView.h */,
+				AE54304620315DDC006AA613 /* BackView.m */,
 			);
 			path = PercentView;
 			sourceTree = "<group>";
@@ -142,7 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE54304920315DDC006AA613 /* PercentView.m in Sources */,
 				AE54303120315D5C006AA613 /* ViewController.m in Sources */,
+				AE54304A20315DDC006AA613 /* CircleView.m in Sources */,
+				AE54304B20315DDC006AA613 /* BackView.m in Sources */,
 				AE54303C20315D5C006AA613 /* main.m in Sources */,
 				AE54302E20315D5C006AA613 /* AppDelegate.m in Sources */,
 			);
